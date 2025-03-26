@@ -1,0 +1,1153 @@
+@charset "utf-8";
+
+body {
+  overflow-x: hidden;
+}
+.pc-br {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+}
+nav {
+  margin-left: auto;
+}
+header {
+  background-color: #009333;
+  padding: 20px 30px;
+}
+header h1 {
+  height: 100%;
+}
+.header_LINK {
+  margin-left: auto;
+}
+.hedtxc {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 50px;
+  color: #ff7f50;
+  background-color: white;
+  border: 5px solid #ff7f50;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 5vw;
+  right: 30px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.hedtxc a {
+  color: #ff7f50;
+}
+
+.kv {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.kv img {
+  width: 100%;
+  height: 100%;
+}
+
+.h2-TOP {
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+}
+
+.h2-TOP::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 230px;
+  height: 230px;
+  background-image: url(../img/KUMOAME.png);
+  left: -40%;
+  bottom: -50%;
+}
+.h2-TOP::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 230px;
+  height: 230px;
+  background-image: url(../img/KUMOAME.png);
+  top: -57%;
+  right: -45%;
+}
+.h3-TOP {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 50px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+h5 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.txc {
+  text-align: center;
+  line-height: 50px;
+  color: #009333;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+.BG-UE {
+  height: 757px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: -2px;
+  background: url("../img/bg-ue.svg") no-repeat;
+  background-position: bottom;
+}
+.BG {
+  background: linear-gradient(
+    180deg,
+    #b9c5ff 1.5%,
+    rgba(48, 77, 225, 0.8) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 200px;
+}
+
+.zaikousei {
+  font-size: 25px;
+}
+.sotugyousei {
+  font-size: 25px;
+}
+
+.form-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 100%;
+  width: 650px;
+}
+
+textarea {
+  resize: none;
+  height: 250px;
+  background-color: #dedcdf;
+}
+textarea::placeholder {
+  font-size: 20px;
+  color: #000;
+}
+.form-group #title {
+  background-color: #dedcdf;
+}
+
+input::placeholder {
+  font-size: 15px;
+  color: #000;
+}
+
+.form-group {
+  background-color: #fff;
+  box-shadow: #dedcdf;
+  border-radius: 30px;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+.BTN_PAGE2 {
+  text-align: right;
+  padding: 15px;
+  margin-right: 10px;
+}
+.BTN_PAGE2 button {
+  width: 20%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input {
+  margin-bottom: 30px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #f48a8a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e07b7b;
+}
+
+.btn a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 50px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.fukidasimigi {
+  margin-top: 350px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.miginoaikon {
+  position: absolute;
+  width: 35%;
+  height: auto;
+  top: -296px;
+  right: 350px;
+}
+
+.ibukimigi {
+  width: 25%;
+  height: auto;
+  margin-right: 250px;
+}
+
+.fukidasihidari {
+  margin-top: 350px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hidarinoaikon {
+  position: absolute;
+  width: 35%;
+  height: auto;
+  top: -300px;
+  left: 350px;
+}
+.hokutohidari {
+  width: 25%;
+  height: auto;
+  margin-left: 250px;
+}
+
+.btnTOP {
+  margin: 200px 0;
+}
+
+.saitofooter {
+  background-color: #009333;
+  padding: 70px;
+  position: relative;
+}
+
+.saitofooter p {
+  display: inline;
+}
+
+.saitofooter .ki {
+  position: absolute;
+
+  bottom: 100px;
+  right: 50px;
+}
+
+.saitofooter .mizu {
+  position: absolute;
+  bottom: 25px;
+  right: 200px;
+}
+
+.container {
+  width: 300px;
+  border: 1px solid #ccc;
+}
+
+.header {
+  background-color: #00b050;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  background-color: #d9d9d9;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.close-button {
+  background-color: #ff9966;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.BG_PAGE2 {
+  background: rgba(13, 38, 255, 0.05);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 100px;
+  margin-bottom: 550px;
+}
+
+.h3_PAGE2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.question-list {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.question-list li {
+  margin-bottom: 85px;
+}
+.question-box {
+  margin: 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 30px;
+}
+.dl-head,
+.dl-ttl,
+.dl-name,
+.dl-body,
+.btn-area {
+  display: flex;
+  align-items: center;
+}
+
+.dl-ttl,
+.dl-name {
+  color: #fff;
+}
+
+.dl-head {
+  background: #00b050;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 4px 20px;
+}
+
+.dl-ttl .tttccc {
+  line-height: 32px;
+  font-size: 16px;
+
+  margin-left: 10px;
+}
+
+.dl-name p {
+  font-size: 16px;
+}
+.dl-ttl .ttlbold {
+  font-size: 32px;
+  margin-left: 10px;
+}
+.dl-name p {
+  margin-left: 16px;
+}
+
+.dl-body {
+  margin: 0;
+  padding: 10px;
+  background: #e2e2e2;
+  height: 300px;
+  align-items: start;
+}
+.dl-body p {
+  font-size: 16px;
+}
+
+.btn-area {
+  display: flex;
+  margin-right: 3%;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-top: 16px;
+}
+.question-btn a {
+  margin: 0;
+  padding: 16px 40px;
+  background: #ff9650;
+  display: block;
+}
+.question-btn:hover {
+  opacity: 0.6;
+}
+.question-btn a:hover {
+  text-decoration: none;
+}
+
+/*-------------------------
+
+
+
+
+
+
+
+
+
+
+--page3*/
+.question-list3 {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.question-list3 li {
+  margin-bottom: 85px;
+}
+.question-box3 {
+  padding: 20px;
+  background: #fff;
+  border-radius: 30px;
+}
+.dl-head3,
+.dl-ttl3,
+.dl-name3,
+.dl-body3,
+.btn-area3 {
+  display: flex;
+  align-items: center;
+}
+
+.dl-name3 {
+  display: flex;
+  background: #49ff49;
+  margin-bottom: 10px;
+  padding: 4px 20px;
+}
+
+.dl-name3 p:nth-child(2) {
+  margin-left: 15px;
+}
+
+.dl-body3 {
+  margin: 0;
+  padding: 10px;
+  background: #e2e2e2;
+  height: 300px;
+  align-items: start;
+}
+
+.btn-area3 {
+  display: flex;
+  margin-right: 3%;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-top: 16px;
+}
+.question-btn3 a {
+  margin: 0;
+  padding: 16px 40px;
+  background: #ff9650;
+  display: block;
+}
+.question-btn3 :hover {
+  opacity: 0.6;
+}
+.question-btn3 a:hover {
+  text-decoration: none;
+}
+
+.BG_PAGE3 {
+  background: rgba(13, 38, 255, 0.05);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 450px;
+  padding-top: 20%;
+}
+
+/*--------page4------*/
+
+.BG_PAGE4 {
+  background: rgba(13, 38, 255, 0.05);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 450px;
+  padding-top: 20%;
+}
+
+.form-container4 {
+  margin: 0 auto;
+  padding: 20px;
+
+  width: 650px;
+}
+
+textarea {
+  resize: none;
+  height: 250px;
+  background-color: #dedcdf;
+}
+textarea ::placeholder {
+  font-size: 20px;
+  color: #000;
+}
+.form-group4 #title {
+  background-color: #dedcdf;
+}
+
+input::placeholder {
+  font-size: 15px;
+  color: #000;
+}
+
+.form-group4 {
+  background-color: #fff;
+  box-shadow: #dedcdf;
+  border-radius: 30px;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+.BTN_PAGE4 {
+  text-align: right;
+  padding: 15px;
+  margin-right: 10px;
+}
+.BTN_PAGE4 button {
+  width: 20%;
+}
+
+.BTN_PAGE4 a {
+  width: 20%;
+  background-color: #f48a8a;
+  color: white;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+}
+.BTN_PAGE4 a:hover {
+  background-color: #9f5f5f;
+}
+
+.form-group4 label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group4 input {
+  margin-bottom: 30px;
+}
+
+.form-group4 input,
+.form-group4 textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/*--------*/
+
+.h2-PAGE2 {
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  padding: 348px 0;
+}
+
+.h2-PAGE2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 230px;
+  height: 230px;
+  background-image: url(../img/kumooo.png);
+  left: 25%;
+  bottom: 20%;
+}
+.h2-PAGE2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 230px;
+  height: 230px;
+  background-image: url(../img/kumooo.png);
+  bottom: 60%;
+  right: 25%;
+}
+.TAIYOU {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  animation: rotation 15s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.more-btn {
+  padding: 10px 50px;
+  font-size: 50px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.close-btn {
+  padding: 10px 50px;
+  font-size: 50px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.scrollTOP {
+  position: absolute;
+  right: 120px;
+  bottom: 300px;
+  z-index: 10;
+  color: #fff;
+  font-size: 20px;
+}
+
+.KAKOP {
+  text-align: center;
+  font-size: 150%;
+}
+
+/*レスポンシブ*/
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 20px 30px;
+    width: 92%;
+  }
+
+  .BG-UE {
+    width: 100%;
+    background-size: cover;
+    height: 757px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: -2px;
+    background: url(../img/2ba-ueRP.svg) no-repeat;
+    background-position: bottom;
+  }
+  .form-container {
+    width: 85%;
+  }
+
+  .hedtxc {
+    padding: 5px 10px;
+    font-size: 35px;
+    border-width: 4px;
+    border-radius: 20px;
+    bottom: 6vw;
+    right: 5%;
+  }
+  .kv img {
+    width: 100%;
+    margin: 0;
+  }
+  .h2-TOP {
+    font-size: 40px;
+  }
+  .h2-TOP::after {
+    top: -107%;
+    right: -45%;
+    width: 50%;
+  }
+  .h2-TOP::before {
+    left: -45%;
+    bottom: -80%;
+  }
+  header h1 img {
+    width: 70%;
+  }
+
+  .BG {
+    width: 100%;
+  }
+  .miginoaikon {
+    width: 50%;
+    right: 310px;
+    margin-right: -5%;
+    margin-top: 11%;
+  }
+  .ibukimigi {
+    width: 40%;
+    margin-right: 20%;
+  }
+  .hokutohidari {
+    width: 40%;
+    margin-left: 114px;
+  }
+  .hidarinoaikon {
+    width: 50%;
+    margin-left: -15%;
+    margin-top: 12%;
+  }
+  .saitofooter {
+    width: 82%;
+  }
+  .saitofooter .ki {
+    width: 17%;
+  }
+  .saitofooter .mizu {
+    bottom: 40px;
+    right: 153px;
+    width: 21%;
+  }
+  .txc {
+    max-width: 550px;
+  }
+  .btn a {
+    font-size: 40px;
+    max-width: 310px;
+  }
+
+  /*page2*/
+
+  .h2-PAGE2::after {
+    right: 2%;
+  }
+  .h2-PAGE2::before {
+    left: -1%;
+  }
+  .dl-head {
+    padding: 2px 20px;
+    min-width: 150px;
+  }
+  .dl-body {
+    height: 230px;
+    min-width: 150px;
+  }
+  .dl-ttl .ttlbold {
+    min-width: 150px;
+  }
+
+  textarea {
+    height: 220px;
+  }
+
+  .from-group {
+    padding: 23px;
+  }
+  .dl-body3 {
+    height: 230px;
+  }
+
+  .CNAV {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .CNAV li {
+    flex: 1;
+    text-align: center;
+  }
+  .TAIYOU {
+    width: 22%;
+  }
+  .TAIYOU img {
+    width: 100%;
+    display: block;
+  }
+
+  /*ハンバーガーメニュー*/
+
+  .header__btn {
+    width: 48px;
+    height: 24px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .header__btn.open {
+    position: fixed;
+    right: 4%;
+  }
+
+  .line {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header__btn__line01 {
+    transform-origin: left top;
+  }
+
+  .header__btn__line03 {
+    transform-origin: left bottom;
+  }
+
+  .header__btn__line01.open {
+    transform: rotate(25deg) translate(0, 1px);
+  }
+
+  .header__btn__line02.open {
+    opacity: 0;
+  }
+
+  .header__btn__line03.open {
+    transform: rotate(-25deg) translate(0, -1px);
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #01802e;
+    transition: right 0.5s ease;
+    z-index: 998;
+  }
+
+  nav.open {
+    right: 0;
+  }
+  .GNAVJS ul {
+    flex-direction: column;
+    margin-top: 50%;
+    text-align: center;
+  }
+  .form-container4 {
+    width: 85%;
+  }
+}
+
+/*スマホ----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 502px) {
+  header {
+    padding: 20px 30px;
+    width: 88%;
+  }
+
+  .form-container4 {
+    width: 87%;
+  }
+
+  .BG-UE {
+    width: 100%;
+    background-size: cover;
+    height: 757px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: -2px;
+    background: url(../img/2ba-ueRP.svg) no-repeat;
+    background-position: bottom;
+  }
+  .form-container {
+    width: 87%;
+  }
+  .BTN_PAGE2 button {
+    width: 29%;
+  }
+
+  .hedtxc {
+    padding: 5px 10px;
+    font-size: 20px;
+    border-width: 2px;
+    border-radius: 20px;
+    bottom: 6vw;
+    right: 7%;
+  }
+  .kv img {
+    width: 100%;
+    margin: 0;
+  }
+  .h2-TOP {
+    font-size: 25px;
+  }
+  .h2-TOP::after {
+    top: -132%;
+    right: -60%;
+    width: 89%;
+  }
+  .h2-TOP::before {
+    left: -76%;
+    bottom: -125%;
+  }
+  header h1 img {
+    width: 70%;
+  }
+
+  .BG {
+    width: 100%;
+  }
+  .miginoaikon {
+    width: 55%;
+    right: 155px;
+    margin-right: -5%;
+    margin-top: 29%;
+  }
+  .ibukimigi {
+    width: 45%;
+    margin-right: 20%;
+  }
+  .hokutohidari {
+    width: 45%;
+    margin-left: 114px;
+  }
+  .hidarinoaikon {
+    width: 55%;
+    margin-left: -48%;
+    margin-top: 26%;
+  }
+  .saitofooter {
+    width: 72%;
+  }
+  .saitofooter .ki {
+    width: 21%;
+  }
+  .saitofooter .mizu {
+    bottom: 40px;
+    right: 116px;
+    width: 21%;
+  }
+  .txc {
+    max-width: 89%;
+    padding: 9px;
+    font-size: 12px;
+  }
+  .btn a {
+    font-size: 40px;
+    max-width: 310px;
+  }
+
+  /*page2*/
+
+  .h2-PAGE2::after {
+    right: 2%;
+  }
+  .h2-PAGE2::before {
+    left: -1%;
+  }
+  .dl-head {
+    padding: 2px 20px;
+    min-width: 150px;
+  }
+  .dl-body {
+    height: 145px;
+    min-width: 150px;
+  }
+  .dl-ttl .ttlbold {
+    min-width: 150px;
+    font-size: 15px;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  .from-group {
+    padding: 23px;
+  }
+  .dl-body3 {
+    height: 150px;
+    font-size: 11%;
+  }
+
+  .CNAV {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .CNAV li {
+    flex: 1;
+    text-align: center;
+  }
+  .TAIYOU {
+    width: 22%;
+  }
+  .TAIYOU img {
+    width: 100%;
+    display: block;
+  }
+  .dl-body p {
+    font-size: 11px;
+  }
+  .more-btn {
+    font-size: 39px;
+  }
+
+  /*ハンバーガーメニュー*/
+
+  /*-----------*/
+
+  .header__btn {
+    width: 48px;
+    height: 24px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .header__btn.open {
+    position: fixed;
+    right: 4%;
+  }
+
+  .line {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header__btn__line01 {
+    transform-origin: left top;
+  }
+
+  .header__btn__line03 {
+    transform-origin: left bottom;
+  }
+
+  .header__btn__line01.open {
+    transform: rotate(25deg) translate(0, 1px);
+  }
+
+  .header__btn__line02.open {
+    opacity: 0;
+  }
+
+  .header__btn__line03.open {
+    transform: rotate(-25deg) translate(0, -1px);
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #01802e;
+    transition: right 0.5s ease;
+    z-index: 998;
+  }
+
+  nav.open {
+    right: 0;
+  }
+  .GNAVJS ul {
+    flex-direction: column;
+    margin-top: 75%;
+    text-align: center;
+  }
+  .dl-name p {
+    font-size: 14px;
+  }
+  .question-btn a {
+    padding: 11px 18px;
+  }
+}

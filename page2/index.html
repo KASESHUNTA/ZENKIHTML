@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="../js/animation.js" defer></script>
+    <script src="../js/script.js" defer></script>
+    <title>Webデザイン科質問箱 質問する</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="../index.html">
+          <img src="../img/hedlogo.png" alt="Webデザイン科質問箱" />
+        </a>
+      </h1>
+      <div class="header__btn">
+        <div class="header__btn__line01 line"></div>
+        <div class="header__btn__line02 line"></div>
+        <div class="header__btn__line03 line"></div>
+      </div>
+      <nav class="GNAVJS">
+        <ul>
+          <li><a href="../index.html">TOP</a></li>
+          <li><a href="../page2/index.html">質問する</a></li>
+          <li><a href="../page5/index.html">過去の回答</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2 class="h2-PAGE2">
+        質問箱へようこそ<span class="TAIYOU"
+          ><img src="../img/taiyou.png" alt="太陽"
+        /></span>
+      </h2>
+
+      <section class="BG_PAGE2">
+        <h3 class="h3_PAGE2">質問をする</h3>
+
+        <div class="form-container">
+          <form action="#">
+            <div class="form-group">
+              <input
+                type="text"
+                id="title"
+                name="title"
+                placeholder="タイトル"
+              />
+
+              <textarea
+                id="question"
+                name="question"
+                placeholder="質問を入力"
+              ></textarea>
+            </div>
+            <div class="BTN_PAGE2">
+              <button type="submit">送信</button>
+            </div>
+          </form>
+        </div>
+        <h3 class="h3_PAGE2">質問一覧表</h3>
+
+        <ul class="question-list">
+          <li>
+            <div class="question-box">
+              <div class="dl-head">
+                <div class="dl-ttl">
+                  <p class="ttlccc">タイトル:</p>
+                  <p class="ttlbold">デザインについて</p>
+                </div>
+                <div class="dl-name">
+                  <p>名前: 24AW加瀬俊太</p>
+                </div>
+              </div>
+              <div class="dl-body">
+                <p>質問内容:</p>
+                <p>
+                  Webサイトのデザインを作らないといけないんだけど、浮かばない..<br />
+                  どうしたらアイディアとか思い浮かぶの?...
+                </p>
+              </div>
+            </div>
+            <div class="btn-area">
+              <div class="question-btn">
+                <a href="../page3/index.html">回答を表示</a>
+              </div>
+              <div class="question-btn">
+                <a href="../page4/index.html">回答する</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="question-box">
+              <div class="dl-head">
+                <div class="dl-ttl">
+                  <p class="ttlccc">タイトル:</p>
+                  <p class="ttlbold">HTMLについて</p>
+                </div>
+                <div class="dl-name">
+                  <p>名前: 24AW清水北斗</p>
+                </div>
+              </div>
+              <div class="dl-body">
+                <p>質問内容:</p>
+                <p>HTMLでリンクを指定したいんだけど、どうやって指定するの？</p>
+              </div>
+            </div>
+            <div class="btn-area">
+              <div class="question-btn">
+                <a href="../page3_2/index.html">回答を表示</a>
+              </div>
+              <div class="question-btn">
+                <a href="../page4/index.html">回答する</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="question-box">
+              <div class="dl-head">
+                <div class="dl-ttl">
+                  <p class="ttlccc">タイトル:</p>
+                  <p class="ttlbold">勉強について</p>
+                </div>
+                <div class="dl-name">
+                  <p>名前: 24AW矢代敦大</p>
+                </div>
+              </div>
+              <div class="dl-body">
+                <p>質問内容:</p>
+                <p>
+                  卒業生の人たちは1日何時間勉強してたのかな、<br />
+                  自分も勉強したいけどモチベーションがない...
+                </p>
+              </div>
+            </div>
+            <div class="btn-area">
+              <div class="question-btn">
+                <a href="../page3_3/index.html">回答を表示</a>
+              </div>
+              <div class="question-btn">
+                <a href="../page4/index.html">回答する</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="question-box">
+              <div class="dl-head">
+                <div class="dl-ttl">
+                  <p class="ttlccc">タイトル:</p>
+                  <p class="ttlbold">スポフェスについて</p>
+                </div>
+                <div class="dl-name">
+                  <p>名前: 24AW斉藤音吹</p>
+                </div>
+              </div>
+              <div class="dl-body">
+                <p>質問内容:</p>
+                <p>
+                  もうすぐスポフェスが始まるんだけど、全然運動していな...不安だ
+                </p>
+              </div>
+            </div>
+            <div class="btn-area">
+              <div class="question-btn">
+                <a href="../page3_4/index.html">回答を表示</a>
+              </div>
+              <div class="question-btn">
+                <a href="../page4/index.html">回答する</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="hidden">
+            <div class="question-box">
+              <div class="dl-head">
+                <div class="dl-ttl">
+                  <p class="ttlccc">タイトル:</p>
+                  <p class="ttlbold">コードの勉強</p>
+                </div>
+                <div class="dl-name">
+                  <p>名前: 24AW中田大暉</p>
+                </div>
+              </div>
+              <div class="dl-body">
+                <p>質問内容:</p>
+                <p>卒業生達ってコードどうやって勉強していたのかな....</p>
+              </div>
+            </div>
+            <div class="btn-area">
+              <div class="question-btn">
+                <a href="../page3_5/index.html">回答を表示</a>
+              </div>
+              <div class="question-btn">
+                <a href="../page4/index.html">回答する</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="hidden">
+            <div class="question-box">
+              <div class="dl-head">
+                <div class="dl-ttl">
+                  <p class="ttlccc">タイトル:</p>
+                  <p class="ttlbold">将来が不安</p>
+                </div>
+                <div class="dl-name">
+                  <p>名前: 23AW平瀬幸太</p>
+                </div>
+              </div>
+              <div class="dl-body">
+                <p>質問内容:</p>
+                <p>今学んでいることを、仕事で活かせるかとても不安だ....</p>
+              </div>
+            </div>
+            <div class="btn-area">
+              <div class="question-btn">
+                <a href="../page3_6/index.html">回答を表示</a>
+              </div>
+              <div class="question-btn">
+                <a href="../page4/index.html">回答する</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="btn btnTOP">
+          <button class="more-btn">もっと見る</button>
+          <button class="close-btn" style="display: none">閉じる</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="saitofooter">
+      <img class="ki JSKI" src="../img/kityuu.png" alt="木" />
+      <p><a href="../index.html">TOPへ戻る</a></p>
+      <p><a href="https://www.jec.ac.jp/">日本電子専門学校公式サイト</a></p>
+    </footer>
+  </body>
+</html>
